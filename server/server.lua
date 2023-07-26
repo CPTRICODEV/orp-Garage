@@ -2,7 +2,7 @@ RegisterNetEvent('orp_garage:ThrowError', function(text)
     error(text)
 end)
 
-if Config.EnableVersionCheck then lib.versionCheck('lukewastakenn/orp_garage') end
+if Config.EnableVersionCheck then lib.versionCheck('CPTRICODEV/orp-Garage') end
 
 if Config.RestoreVehicles then
     MySQL.ready(function()
